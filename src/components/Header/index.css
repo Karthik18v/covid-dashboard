@@ -1,0 +1,23 @@
+span {
+  color: cornflowerblue;
+}
+.header {
+  background-color: #1e1e30;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  padding: 10px 30px;
+  color: white;
+  list-style-type: none;
+}
+
+.header-items {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.link {
+  text-decoration: none;
+  color: aliceblue;
+}

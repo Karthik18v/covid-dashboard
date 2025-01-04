@@ -1,0 +1,75 @@
+.state-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #161625;
+  padding: 10px 100px;
+  color: white;
+}
+.state-container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: end;
+}
+h2 {
+  color: #0ea5e9;
+  background-color: #0284c729;
+  text-align: center;
+  border-radius: 30px;
+  padding: 10px 0px;
+  margin-bottom: 0px;
+}
+.state-stats {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-self: center;
+}
+.active-red {
+  background-color: #331427;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.active-blue {
+  background-color: #132240;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.active-green {
+  background-color: #182829;
+  padding: 10px 20px;
+  border-radius: 10px;
+
+  width: 150px;
+}
+
+.active-gray {
+  background-color: #212230;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 150px;
+}
+.button {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+.district {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+  width: 200px;
+}
+.top-districts {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  align-self: center;
+}
+.top-heading {
+  color: red;
+}

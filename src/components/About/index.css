@@ -1,0 +1,26 @@
+.about-content-container {
+  background-color: #161625;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 10px 100px;
+}
+.about-description {
+  margin-top: 0px;
+  color: gray;
+  margin-bottom: 0px;
+}
+.about-vaccine-title {
+  font-weight: 500;
+}
+.fact-list {
+  list-style-type: none;
+}
+.question {
+  color: #94a3b8;
+  line-height: 20px;
+}
+.answer {
+  color: #007bff;
+  line-height: 20px;
+}
